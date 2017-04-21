@@ -15,7 +15,7 @@
         }
     ],
     "tags": [
-        "Sample"
+        "Sample", "Pull Request", "Git", 
     ],
     "content": {
         "details": {
@@ -61,7 +61,7 @@
         }
     ],
     "categories": [
-        "Integrate"
+        "Code", "Collaborate"
     ],
     "contributions": [
         {
