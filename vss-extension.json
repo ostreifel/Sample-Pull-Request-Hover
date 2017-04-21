@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
-    "id": "vsts-extension-ts-seed-simple",
+    "id": "vsts-sample-pull-request-hover",
     "version": "0.1.1",
-    "name": "vsts-extension-ts-seed-simple",
+    "name": "vsts-sample-pull-request-hover",
     "scopes": [ "vso.work", "vso.work_write" ],
     "description": "Describe your extension.",
     "publisher": "your-publisher",
@@ -65,7 +65,7 @@
     ],
     "contributions": [
         {
-            "id": "vsts-extension-ts-seed-simple-action",
+            "id": "editor",
             "type": "ms.vss-web.action-provider",
             "description": "",
             "targets": [
