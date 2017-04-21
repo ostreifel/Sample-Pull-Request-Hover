@@ -1,11 +1,11 @@
 {
     "manifestVersion": 1,
     "id": "vsts-sample-pull-request-hover",
-    "version": "0.1.1",
+    "version": "0.1.4",
     "name": "vsts-sample-pull-request-hover",
     "scopes": [ "vso.work", "vso.work_write" ],
     "description": "Describe your extension.",
-    "publisher": "your-publisher",
+    "publisher": "ottostreifel",
     "icons": {
         "default": "img/logo.png"
     },
@@ -15,7 +15,7 @@
         }
     ],
     "tags": [
-        "Sample", "Pull Request", "Git", 
+        "Sample", "Pull Request", "Git"
     ],
     "content": {
         "details": {
@@ -61,7 +61,7 @@
         }
     ],
     "categories": [
-        "Code", "Collaborate"
+        "Code"
     ],
     "contributions": [
         {
