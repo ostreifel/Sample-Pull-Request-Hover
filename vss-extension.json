@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-sample-pull-request-hover",
-    "version": "0.1.4",
+    "version": "0.1.12",
     "name": "vsts-sample-pull-request-hover",
     "scopes": [ "vso.work", "vso.work_write" ],
     "description": "Describe your extension.",
@@ -66,13 +66,13 @@
     "contributions": [
         {
             "id": "editor",
-            "type": "ms.vss-web.action-provider",
+            "type": "ms.vss-code-web.editor-items",
             "description": "",
             "targets": [
-                "ms.vss-work-web.work-item-context-menu"
+                "ms.vss-code-web.editor"
             ],
             "properties": {
-                "group": "contributed",
+                "languageId": "markdown",
                 "uri": "index.html"
             }
         }

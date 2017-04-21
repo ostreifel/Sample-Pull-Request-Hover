@@ -1,5 +1,6 @@
-export interface IFileContext {
-    repoName: string;
+
+export interface IEditorContext {
+    repoId: string;
     /** Includes name */
     filePath: string;
     contents: string;
@@ -10,8 +11,8 @@ export interface IPosition {
     lineNumber: number;
 }
 
-export interface IContributedFileItems {
-    getHovers(context: IFileContext, position: IPosition): IHover | IPromise<IHover> | null | IPromise<null>;
+export interface IContributedEditorItems {
+    getHovers(context: IEditorContext, position: IPosition): IHover | IPromise<IHover>;
     // getLineDecorations(context: IFileContext): any;
 }
 
@@ -22,8 +23,8 @@ export interface IHover {
 
 
 export interface IRange {
-    startLine: number;
+    startLineNumber: number;
     startColumn: number;
-    endLine: number;
+    endLineNumber: number;
     endColumn: number;
 }

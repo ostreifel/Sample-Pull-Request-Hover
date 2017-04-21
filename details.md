@@ -1,1 +1,1 @@
-Describe your extension here. This description will be shown in the marketplace. You can use *Markdown*.
+Simple extension that puts a hover "Sample hover" on line 4 of all editors containing markdown.

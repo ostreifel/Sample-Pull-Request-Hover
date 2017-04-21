@@ -1,20 +1,19 @@
-import { IFileContext, IContributedFileItems, IHover } from "./contracts";
+import { IEditorContext, IContributedEditorItems, IHover } from "./contracts";
 
 
-var contributed: IContributedFileItems = {
+var contributed: IContributedEditorItems = {
     getHovers: (context, position) => {
-        const searchString = "Sample string";
-        const lines = context.contents.split("/n");
+        const lines = context.contents.split("\n");
         const line = lines[position.lineNumber - 1];
-        if (line && line.slice(position.column - 1, searchString.length) === searchString) {
+        if (position.lineNumber === 4) {
             const hover: IHover = {
                 range: {
-                    startLine: position.lineNumber,
-                    endLine: position.lineNumber,
+                    startLineNumber: position.lineNumber,
+                    endLineNumber: position.lineNumber,
                     startColumn: position.column,
-                    endColumn: position.column + searchString.length
+                    endColumn: Infinity
                 }, 
-                contents: ["Sample hover"]
+                contents: [line]
             }
             return hover;
         }
