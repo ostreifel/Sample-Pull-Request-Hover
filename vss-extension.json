@@ -1,9 +1,9 @@
 {
     "manifestVersion": 1,
     "id": "vsts-sample-editor-items",
-    "version": "0.1.18",
+    "version": "1.0.0",
     "name": "vsts-sample-editor-items",
-    "scopes": [ ],
+    "scopes": [ "vso.code" ],
     "description": "Describe your extension.",
     "publisher": "ottostreifel",
     "icons": {

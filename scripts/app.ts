@@ -22,6 +22,14 @@ var contributed: IContributedEditorItems = {
         }
         return null;
     },
+    // Valid inline classes
+    /*
+        .dotted-underline .dashed-underline .solid-underline 
+        .red-underline .green-underline .blue-underline 
+        .red-highlight .green-highlight .blue-highlight .yellow-highlight 
+    */
+    // Valid line classes    
+    // .red-line .green-line .blue-line .yellow-line
     getLineDecorations: (context) => {
         const decorations: ILineDecoration[] = [
             {
