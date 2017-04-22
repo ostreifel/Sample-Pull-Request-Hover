@@ -1,1 +1,2 @@
-Simple extension that puts a hover "Sample hover" on line 4 of all editors containing markdown.
+Simple extension that puts basic line decorations and hovers on markdown files  
+![screenshot](img/ScreenShot.png)

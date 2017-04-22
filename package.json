@@ -24,7 +24,7 @@
     "typings": "^1.5.0",
     "vss-web-extension-sdk": "^1.106.0"
   },
-  "name": "vsts-sample-pull-request-hover",
+  "name": "vsts-sample-editor-items",
   "private": true,
   "version": "0.6.0",
   "scripts": {
